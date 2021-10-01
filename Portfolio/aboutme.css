@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    color: #eee;
+    font-family: 'Nunito', sans-serif;
+    
+    
+}
+.flexbox{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 50px;
+}
+#header{
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+}
+
+span{
+    color: yellow;
+}
+span:hover{
+    background-color: yellow;
+    color: black;
+}
+p{
+    margin-top: 10px;
+}
+p:hover{
+    background-color: yellow;
+    color: black;
+}
+
+h4{
+    margin-top:10px ;
+    border: 1px solid rgb(26, 25, 25); 
+    padding: 10px;
+    width: 100px;
+    border-radius:25% ;
+    text-align:center ;
+    color: #eee;
+    background-color: rgb(26, 25, 25);
+}
+h4:hover{
+    background-color: yellow;
+    color: black;
+}
+.introduction2{
+    margin-left: 100px;
+}
+.introduction1{
+    margin-left: 90px;
+}
+.experiences, .project-completed{
+    border:1px solid rgb(20, 14, 14);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    color:gray;
+    
+}
+.project-completed{
+    margin-top: 20px;
+}

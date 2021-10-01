@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+    color: #eee;
+     
+}
+*:hover{
+    color: black;
+}
+.flex-container{
+    display: flex;
+    background-color: black;
+    color:white ;
+    flex-wrap: nowrap;
+
+}
+img{
+    border-radius:50% ;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color:yellow ;
+}
+#container1{
+   
+    
+    padding: 70px;
+    width: 25%;
+    height: 500px;
+    border:1px solid rgb(20, 14, 14);
+    background: #1a1a1a;
+}
+.container2{
+    padding: 200px;
+
+}
+h2:hover,p:hover,h3:hover,h1:hover,span:hover{
+    background: #e2df07;
+    color: black;
+    
+}
+span{
+    color:yellow ;
+}
+p{
+    margin-top:10px ;
+    
+}
+a{
+    text-decoration:none ;
+    
+}
+#aboutme{
+    margin-top:10px ;
+    border: 1px solid rgb(26, 25, 25); 
+    padding: 5px;
+    width: 100px;
+    border-radius:25% ;
+    text-align:center ;
+    color: #eee;
+    background-color: rgb(26, 25, 25);
+    
+
+}
+#home,#about,#education,#portfolio,#contact{
+    margin-top:10px ;
+    border: 1px solid rgb(26, 25, 25); 
+    color: #eee;
+    border-radius:25% ;
+    text-align:center ;
+    text-decoration-color:#eee;
+    background-color:rgb(17, 15, 15);
+    padding: 10px;
+    text-decoration:none ;
+    text-decoration-style: none;
+    list-style: none;
+
+
+
+}
+#home:hover,#about:hover,#education:hover,#portfolio:hover,#contact:hover{
+    background: #e2df07;
+  
+}
+#aboutme:hover{
+    background: #e2df07;
+}
+
+
+
+   
+
+
+
+
+
+
+
